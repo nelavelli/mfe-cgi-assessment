@@ -27,7 +27,7 @@ export default function MultiSelectInput({
   };
   return (
     <FormControl className={classes.formControl}>
-      <InputLabel id="mutiple-select-label">Multiple Select</InputLabel>
+      <InputLabel id="mutiple-select-label">Select Ingredients</InputLabel>
       <Select
         key={options.length}
         labelId="mutiple-select-label"

@@ -3,7 +3,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 import TabPanel from "./utils/TabPanel";
-import ReceipePage from "./receipe/ReceipePage";
+import RecipePage from "./recipe/RecipePage";
 import LogAnalyserPage from "./logAnalyser/LogAnalyserPage";
 import { useStyles } from "./utils/utils";
 
@@ -44,7 +44,7 @@ export default function VerticalTabs() {
       >
         <Tab
           className={value === 0 ? classes.active_tab : classes.default_tab}
-          label="Test 1 - Receipes"
+          label="Test 1 - Recipes"
           {...a11yProps(0)}
         />
         <Tab
@@ -54,7 +54,7 @@ export default function VerticalTabs() {
         />
       </Tabs>
       <TabPanel value={value} index={0}>
-        <ReceipePage />
+        <RecipePage />
       </TabPanel>
       <TabPanel value={value} index={1}>
         <LogAnalyserPage />

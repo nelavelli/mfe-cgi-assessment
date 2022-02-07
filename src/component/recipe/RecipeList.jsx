@@ -8,7 +8,7 @@ import TableView from "../utils/TableView";
 const columns = [
   {
     id: "thumbnail",
-    label: "Receipe",
+    label: "Recipe",
     width: 350,
     align: "center",
     image: true,
@@ -43,11 +43,11 @@ const columns = [
   },
 ];
 
-export default function ReceipeList({ rows, classes }) {
+export default function RecipeList({ rows, classes }) {
   return <TableView rows={rows} classes={classes} columns={columns} />;
 }
 
-ReceipeList.propTypes = {
+RecipeList.propTypes = {
   rows: PropTypes.array.isRequired,
   classes: PropTypes.object.isRequired,
 };

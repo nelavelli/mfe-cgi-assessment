@@ -8,7 +8,7 @@ source code is implemented in react and material ui.
 
 ##Running the appplication in local
 
-make sure you have node in you local, follow this [link] (https://nodejs.org/en/download/) to install the node in case not available yet.
+make sure you have node in you local, follow this [link](https://nodejs.org/en/download/) to install the node in case not available yet.
 
 use git import to get mfe-cgi-assessment code to your local.
 
